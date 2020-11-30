@@ -1,0 +1,38 @@
+@font-face{
+	font-family: Airstream_webont;
+	src: url('Airstream_webont.woff');
+	src: url('Airstream_webont.eot?#iefix') format('embedded-opentype'),
+		 url('Airstream_webont.woff') format('woff'),
+		 url('Airstream_webont.ttf') format('truetype'),
+		 url('Airstream_webont.svg#webfont') format('svg');
+}
+
+*
+{
+	font-family: Airstream_webont !important;
+}
+
+h1
+{
+    color: green;
+    font-size: xx-large;
+    font-family: impact;
+}
+
+h2
+{
+	color: green;
+	font-size: x-large;
+}
+
+h3
+{
+	color: darkgrey;
+	font-style: large;
+}
+
+.name
+{
+	color: darkgrey;
+	font-size: xx-large;
+}
