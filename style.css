@@ -39,10 +39,25 @@ h3
 	font-style: large;
 }
 
+a:visited
+{
+	color red;
+}
+
 .name
 {
 	color: rgb(44,74,99);
 	font-size: xx-large;
+}
+
+.float
+{
+	float: left;	
+}
+
+.under
+{
+	clear: both;
 }
 
 .asso
