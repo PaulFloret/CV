@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
 
+.conteneur
+{
+	display: flex;
+}
+
 *
 {
+	padding: 2px; 
+	margin: 5px;
 	font-family: 'Sansita Swashed', cursive;
     text-shadow: 2px 2px 4px black;
 }
@@ -39,9 +46,14 @@ h3
 	font-style: large;
 }
 
+strong
+{
+	font-size: large;
+}
+
 a:visited
 {
-	color red;
+	font-color red;
 }
 
 .name
@@ -58,9 +70,4 @@ a:visited
 .under
 {
 	clear: both;
-}
-
-.asso
-{
-
 }
