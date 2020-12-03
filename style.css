@@ -1,38 +1,51 @@
-@font-face{
-	font-family: Airstream_webont;
-	src: url('Airstream_webont.woff');
-	src: url('Airstream_webont.eot?#iefix') format('embedded-opentype'),
-		 url('Airstream_webont.woff') format('woff'),
-		 url('Airstream_webont.ttf') format('truetype'),
-		 url('Airstream_webont.svg#webfont') format('svg');
-}
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
 
 *
 {
-	font-family: Airstream_webont !important;
+	font-family: 'Sansita Swashed', cursive;
+    text-shadow: 2px 2px 4px black;
+}
+
+body
+{
+	/*background-image: url(IT3.jpg);*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+	background-color: rgb(256,256,256,);
 }
 
 h1
 {
-    color: green;
-    font-size: xx-large;
+	border: 4px rgb(44,74,99) outset;
+	background-color: rgb(44,74,99);
+    color: rgb(178,178,178);
+    font-size: xx-laJPG
     font-family: impact;
 }
 
 h2
 {
-	color: green;
+    text-shadow: 2px 2px 4px lightyellow;
+	background-color: rgb(178,178,178);
+	color: rgb(44,74,99);
 	font-size: x-large;
 }
 
 h3
 {
+	text-shadow: 2px 2px 4px lightyellow;
 	color: darkgrey;
 	font-style: large;
 }
 
 .name
 {
-	color: darkgrey;
+	color: rgb(44,74,99);
 	font-size: xx-large;
+}
+
+.asso
+{
+
 }
