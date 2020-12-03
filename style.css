@@ -1,73 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 
-.conteneur
-{
-	display: flex;
-}
 
 *
 {
-	padding: 2px; 
-	margin: 5px;
-	font-family: 'Sansita Swashed', cursive;
-    text-shadow: 2px 2px 4px black;
+	color: rgb(44,74,99);
+	font-family: 'Asap', sans-serif;
 }
 
-body
+header
 {
-	/*background-image: url(IT3.jpg);*/
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;*/
-	background-color: rgb(256,256,256,);
+	background-color: rgb(44,74,99);
+	border-radius: 0px 50em 50em 0px;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+header p
+{
+	color: white;
+	font-size: 1.5em;
+	margin: 3px;
+}
+
+p a
+{
+	color: lightblue;
 }
 
 h1
 {
-	border: 4px rgb(44,74,99) outset;
-	background-color: rgb(44,74,99);
-    color: rgb(178,178,178);
-    font-size: xx-laJPG
-    font-family: impact;
+	font-size: 2.5em;
+	color: rgb(25,30,94);	
 }
 
-h2
+.role
 {
-    text-shadow: 2px 2px 4px lightyellow;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.place
+{
 	background-color: rgb(178,178,178);
+	margin-right: 6em;
+	border-radius: 0px 50em 50em 0px;
 	color: rgb(44,74,99);
-	font-size: x-large;
-}
-
-h3
-{
-	text-shadow: 2px 2px 4px lightyellow;
-	color: darkgrey;
-	font-style: large;
-}
-
-strong
-{
-	font-size: large;
-}
-
-a:visited
-{
-	font-color red;
+	font-size: 1.5em;
 }
 
 .name
 {
-	color: rgb(44,74,99);
-	font-size: xx-large;
+	color: white;
+	font-size: 4em;
 }
 
-.float
+.portrait
 {
-	float: left;	
+	width: 9em;
+	height: 9em;
+	padding-top: 0.5em;
+	padding-right: 0.8em;
+	float: right;
 }
 
-.under
+.profile
 {
-	clear: both;
+	font-size: 1.8em;
+	margin-top: 0.3em;
+	border-top: 0.3em white solid;
+	padding-top: 0.5em;
+}
+
+.container
+{
+	padding-left: 4em;
+	display: flex;
+}
+
+.rside
+{
+	padding-top: 4em;
+	padding-right: 1em;
+	padding-left: 2em;
+	margin-right: 2em;
+	background-color: rgb(178,178,178);
+	border-radius: 50em 50em 50em 50em;
 }
