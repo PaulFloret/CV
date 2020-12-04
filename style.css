@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 
-
 *
 {
 	color: rgb(44,74,99);
@@ -103,4 +102,12 @@ h1
 	background-color: rgb(178,178,178);
 	border-radius: 50em 50em 50em 50em;
 	box-shadow: 2em 2em 2em grey;
+}
+
+@media handheld
+{
+	.container
+	{
+		flex-wrap: nowrap;
+	}
 }
