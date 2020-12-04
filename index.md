@@ -6,6 +6,6 @@
 		<title>Welcome</title>
 	</head>
 	<body>
-		<p><a href="CV.html"></a></p>
+		<p><a href="CV.html">CV</a></p>
 	</body>
 </html>
