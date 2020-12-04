@@ -25,17 +25,24 @@ header p
 
 p a
 {
-	color: lightblue;
+	color: white;
+}
+
+a:visited
+{
+	color:red;
 }
 
 h1
 {
+	text-shadow: 2px 1px 2px lightyellow;
 	background-color: rgb(178,178,178);
 	border-radius: 0em 50em 50em 0em;
 	margin-right: 10px;
 	padding: 5px;
 	font-size: 2.5em;
 	color: rgb(25,30,94);	
+
 }
 
 .lside
@@ -77,7 +84,7 @@ h1
 	margin-top: 0.3em;
 	border-top: 0.3em white solid;
 	padding-top: 0.5em;
-	margin-right: 12em;
+	margin-right: 5em;
 }
 
 .container
