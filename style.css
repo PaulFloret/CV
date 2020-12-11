@@ -4,6 +4,7 @@
 {
 	color: rgb(44,74,99);
 	font-family: 'Asap', sans-serif;
+	margin-right: 1em;
 }
 
 header
@@ -18,8 +19,9 @@ header
 	border-radius: 0px 50em 50em 0px;
 	padding-left: 2em;
 	padding-bottom: 1em;
-	margin-left: 0;
+	margin-left: 0em;
 	box-shadow: 1em 1em 1em grey;
+	z-index: 2;
 }
 
 header p
@@ -29,10 +31,16 @@ header p
 	margin-top: 0.5%;
 }
 
+header div
+{
+	margin-top: 0;
+}
+
 header a
 {
 	color: white;
 }
+
 
 a:visited
 {
@@ -41,16 +49,44 @@ a:visited
 
 h1
 {
+	position: relative;
+	left: 20%;
+	border-radius: 50em 50em 50em 50em;
+	display: inline;
 	text-shadow: 2px 1px 2px lightyellow;
 	background-color: rgb(178,178,178);
-	border-radius: 0em 50em 50em 0em;
-	margin-right: 10px;
-	padding: 5px;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
 	color: rgb(25,30,94);
 	font-size: 2em;
 	max-width: 45%;
 	white-space: nowrap;
+	margin-right: auto;
+	margin-left: auto;
+}
 
+.container div
+{
+	margin-bottom: 3em;
+	width: 80%;
+	margin-left: 2em;
+}
+
+.container div h1
+{
+	margin-left: 0;
+}
+
+.fondu
+{
+	position: fixed;
+	background: linear-gradient(white, white, transparent);
+	top:0;
+	width: 100vw;
+	height: 40vh;
+	z-index: 1;
 }
 
 .lside
@@ -65,6 +101,12 @@ h1
 	text-align: left;
 }
 
+.rside h1
+{
+	background: transparent;
+	padding-left: 0;
+}
+
 .role
 {
 	font-weight: bold;
@@ -76,6 +118,8 @@ h1
 	margin-right: 6em;
 	color: rgb(44,74,99);
 	font-size: 1.5em;
+	margin-left: 2em;
+	white-space: nowrap;
 }
 
 .name
@@ -99,6 +143,7 @@ h1
 	margin-right: 1em;
 	float: right;
 	background-color: transparent;
+	z-index: 3;
 }
 
 .profile
@@ -127,6 +172,13 @@ h1
 	background-color: rgb(178,178,178);
 	border-radius: 50em 50em 50em 50em;
 	box-shadow: 2em 2em 2em grey;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+.rside h1
+{
+	background-color: transparent;
 }
 
 @media handheld
