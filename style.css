@@ -4,24 +4,32 @@
 {
 	color: rgb(44,74,99);
 	font-family: 'Asap', sans-serif;
-	margin-right: 1em;
 }
 
 header
 {
+	font-size: 1.3vw;
 	display: flex;	
 	position: fixed;
 	left:0%;
 	top: 2%;
-	width: 80%;
-	height: 25%;
+	width: 80vw;
+	height: 13vw;
 	background-color: rgb(44,74,99);
 	border-radius: 0px 50em 50em 0px;
-	padding-left: 2em;
-	padding-bottom: 1em;
-	margin-left: 0em;
+	padding-left: 2%;
+	padding-bottom: 1%;
+	margin-left: 0;
 	box-shadow: 1em 1em 1em grey;
 	z-index: 2;
+	overflow: all;
+}
+
+td
+{
+	color: white;
+	font-size: 1em;
+	padding-top: 0.3em;
 }
 
 header p
@@ -55,13 +63,12 @@ h1
 	display: inline;
 	text-shadow: 2px 1px 2px lightyellow;
 	background-color: rgb(178,178,178);
-	padding-left: 2em;
 	padding-right: 2em;
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
 	color: rgb(25,30,94);
 	font-size: 2em;
-	max-width: 45%;
+	width: 90vw;
 	white-space: nowrap;
 	margin-right: auto;
 	margin-left: auto;
@@ -124,26 +131,19 @@ h1
 
 .name
 {
-	margin-top: auto;
-	margin-bottom: auto;
 	color: white;
-	font-size: 4em;
-	margin-right: 1em;
+	font-size: 4.5vw;
+	margin-right: 1vw;
+	margin-top: 1vw;
 }
 
 .portrait
 {
-
-	position: fixed;
-	right: 15em;
-	top: 1.5em;
-	width: 9em;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-right: 1em;
-	float: right;
+	width: 10vw;
 	background-color: transparent;
-	z-index: 3;
+	padding-right: 10vw;
+	margin-top: 1.3vw;
+	margin-left: .5vw;
 }
 
 .profile
@@ -152,6 +152,7 @@ h1
 	margin-top: 0.3em;
 	border-top: 0.3em white solid;
 	padding-top: 0.5em;
+	white-space: nowrap;
 }
 
 .container
